@@ -26,12 +26,12 @@ const About: React.FC = () => {
   ];
 
   const values = [
-    "Quality workmanship in every project",
-    "Transparent communication throughout",
-    "Competitive pricing with no hidden costs",
-    "Sustainable and eco-friendly practices",
-    "Customer satisfaction guarantee",
-    "Modern construction techniques"
+    "Expertise in All-Round Civil Works",
+    "Unmatched Work Quality",
+    "Clear & Honest Communication",
+    "Fair Pricing, No Hidden Charges",
+    "Eco-Friendly & Sustainable Practices",
+    "Customer Satisfaction Guaranteed"
   ];
 
   return (

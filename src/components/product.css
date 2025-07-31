@@ -1,0 +1,27 @@
+.product-wrap{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.products-img {
+  /* width: 180px;               */
+  max-width: 100%;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.products-img:hover {
+  transform: scale(1.05);
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
