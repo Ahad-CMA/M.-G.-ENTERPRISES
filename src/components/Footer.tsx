@@ -1,5 +1,8 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowUp } from 'lucide-react';
+import logo from './svgs/logo.jpg';
+
+
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -32,9 +35,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">MG</span>
-                </div>
+                <span><img src={logo} alt="logo here" width={45} /></span>
                 <div>
                   <h3 className="text-xl font-bold">M. G. ENTERPRISES</h3>
                   <p className="text-sm text-gray-400">Building Dreams</p>

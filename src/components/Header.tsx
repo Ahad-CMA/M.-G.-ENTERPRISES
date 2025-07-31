@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Menu, X, Clock } from 'lucide-react';
-// import logo from './svgs/logo.jpg';
+import logo from './svgs/logo.jpg';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -49,9 +49,10 @@ const Header: React.FC = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
+                {/* <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">MG</span>             
-                </div>
+                </div> */}
+                <span><img src={logo} alt="logo here" width={45}/></span>
                 <div>
                   <h1 className="text-xl font-bold text-gray-800">M. G. ENTERPRISES</h1>
                   <p className="text-xs text-gray-600">Building Dreams</p>
