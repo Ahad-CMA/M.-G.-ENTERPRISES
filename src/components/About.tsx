@@ -5,7 +5,7 @@ const About: React.FC = () => {
   const features = [
     {
       icon: <Award className="w-6 h-6" />,
-      title: "25+ Years Experience",
+      title: "16+ Years Experience",
       description: "Decades of expertise in construction and project management"
     },
     {
@@ -47,7 +47,7 @@ const About: React.FC = () => {
               </div>
               
               <h2 className="text-4xl font-bold text-gray-900">
-                Building Excellence Since 1998
+                Building Excellence Since 2008
               </h2>
               
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -105,20 +105,20 @@ const About: React.FC = () => {
               <h3 className="text-xl font-semibold mb-6">Our Achievements</h3>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-2xl font-bold mb-1">500+</div>
+                  <div className="text-2xl font-bold mb-1">50+</div>
                   <div className="text-orange-100 text-sm">Projects Completed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold mb-1">1000+</div>
+                  <div className="text-2xl font-bold mb-1">16+</div>
+                  <div className="text-orange-100 text-sm">Years Experience</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold mb-1">300+</div>
                   <div className="text-orange-100 text-sm">Happy Clients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold mb-1">50+</div>
-                  <div className="text-orange-100 text-sm">Team Members</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold mb-1">25+</div>
-                  <div className="text-orange-100 text-sm">Years Experience</div>
+                  <div className="text-2xl font-bold mb-1">20+</div>
+                  <div className="text-orange-100 text-sm">Expert Team</div>
                 </div>
               </div>
             </div>

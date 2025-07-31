@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                With over 25 years of experience, M. G. ENTERPRISES is your trusted partner for all construction needs. We deliver quality, reliability, and excellence in every project.
+                With over 16 years of experience, M. G. ENTERPRISES is your trusted partner for all construction needs. We deliver quality, reliability, and excellence in every project.
               </p>
             </div>
             

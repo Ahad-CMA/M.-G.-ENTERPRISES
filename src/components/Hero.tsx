@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 bg-orange-500/20 text-orange-300 px-4 py-2 rounded-full text-sm font-medium">
                 <Award className="w-4 h-4" />
-                <span>25+ Years of Excellence</span>
+                <span>16+ Years of Excellence</span>
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
@@ -67,20 +67,20 @@ const Hero: React.FC = () => {
           <div className="lg:pl-8">
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-orange-400 mb-2">500+</div>
+                <div className="text-3xl font-bold text-orange-400 mb-2">50+</div>
                 <div className="text-gray-300">Projects Completed</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-orange-400 mb-2">25+</div>
+                <div className="text-3xl font-bold text-orange-400 mb-2">16+</div>
                 <div className="text-gray-300">Years Experience</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-orange-400 mb-2">100%</div>
-                <div className="text-gray-300">Client Satisfaction</div>
+                <div className="text-3xl font-bold text-orange-400 mb-2">300+</div>
+                <div className="text-gray-300">Happy Clients</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-orange-400 mb-2">50+</div>
-                <div className="text-gray-300">Expert Workers</div>
+                <div className="text-3xl font-bold text-orange-400 mb-2">20+</div>
+                <div className="text-gray-300">Expert Team</div>
               </div>
             </div>
 

@@ -111,19 +111,19 @@ const Testimonials: React.FC = () => {
         <div className="mt-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 lg:p-12">
           <div className="grid md:grid-cols-4 gap-8 text-center text-white">
             <div>
-              <div className="text-3xl lg:text-4xl font-bold mb-2">500+</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2">50+</div>
+              <div className="text-orange-100">Project Completed</div>
+            </div>
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2">16+</div>
+              <div className="text-orange-100">Years  Experience</div>
+            </div>
+            <div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2">300+</div>
               <div className="text-orange-100">Happy Clients</div>
             </div>
             <div>
-              <div className="text-3xl lg:text-4xl font-bold mb-2">100%</div>
-              <div className="text-orange-100">Satisfaction Rate</div>
-            </div>
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold mb-2">25+</div>
-              <div className="text-orange-100">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-3xl lg:text-4xl font-bold mb-2">50+</div>
+              <div className="text-3xl lg:text-4xl font-bold mb-2">20+</div>
               <div className="text-orange-100">Expert Team</div>
             </div>
           </div>
