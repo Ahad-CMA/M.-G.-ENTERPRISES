@@ -17,7 +17,7 @@ const ProductsUsed: React.FC = () => {
 
 
   return (
-    <section className="products-section my-5">
+    <section className="products-section my-5 d-flex flex-column gap-5">
       <div className="d-flex"><p className="inline-flex gap-2 items-center space-x-2 bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-medium"><Target></Target>Products</p></div>
       <h1 className="card-title fw-bold fs-1 text-center">We Use Quality Products</h1>
       <div className="d-flex" style={{width:'100vw'}}>
